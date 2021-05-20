@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:src="@drawable/ic_dot"
         android:scaleType="center"
-        android:layout_height="12dp" />
+        android:layout_height="12dp"/>
     <ImageView
         android:id="@+id/arrowUp"
         android:layout_width="match_parent"

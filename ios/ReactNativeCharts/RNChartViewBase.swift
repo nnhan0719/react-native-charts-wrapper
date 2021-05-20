@@ -262,6 +262,7 @@ open class RNChartViewBase: UIView, ChartViewDelegate {
             axis.drawLabelsEnabled = config["drawLabels"].boolValue
         }
 
+
         if config["drawAxisLine"].bool != nil {
             axis.drawAxisLineEnabled = config["drawAxisLine"].boolValue
         }
@@ -575,5 +576,4 @@ open class RNChartViewBase: UIView, ChartViewDelegate {
         }
 
     }
-
 }

@@ -284,7 +284,5 @@ open class BalloonMarker: MarkerView {
         _size.height = _labelSize.height + self.insets.top + self.insets.bottom
         _size.width = max(minimumSize.width, _size.width)
         _size.height = max(minimumSize.height, _size.height)
-        
     }
 }
-

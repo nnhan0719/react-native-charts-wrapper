@@ -193,6 +193,9 @@ public class RNRectangleMarkerView extends MarkerView {
 
     public void setTooltipBackground(int color) {
         markerContent.setBackgroundTintList(ColorStateList.valueOf(color));
+
+        arrowUp.setImageDrawable(getResources().getDrawable(color == Color.parseColor("#D6F5E4") ? R.drawable.ic_up : R.drawable.ic_up_red));
+        arrowDown.setImageDrawable(getResources().getDrawable(color == Color.parseColor("#D6F5E4") ? R.drawable.ic_down : R.drawable.ic_down_red));
     }
 
     public void setTitleColor(int color) {
@@ -204,4 +207,3 @@ public class RNRectangleMarkerView extends MarkerView {
         dotBottom.setImageDrawable(getResources().getDrawable(isCredit ? R.drawable.ic_dot_credit : R.drawable.ic_dot_debit));
     }
 }
-

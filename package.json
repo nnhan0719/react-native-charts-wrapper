@@ -1,48 +1,14 @@
 {
-  "_args": [
-    [
-      "git+https://github.com/hongthaiovi/react-native-charts-wrapper.git",
-      "/Users/nguyennhan/bankbe"
-    ]
-  ],
-  "_from": "git+https://github.com/hongthaiovi/react-native-charts-wrapper.git",
-  "_id": "react-native-charts-wrapper@git+https://github.com/hongthaiovi/react-native-charts-wrapper.git#08f9ad216db0954d62ad81a4280a913d906f7a51",
-  "_inBundle": false,
-  "_integrity": "",
-  "_location": "/react-native-charts-wrapper",
-  "_phantomChildren": {},
-  "_requested": {
+  "name": "react-native-charts-wrapper",
+  "repository": {
     "type": "git",
-    "raw": "git+https://github.com/hongthaiovi/react-native-charts-wrapper.git",
-    "rawSpec": "git+https://github.com/hongthaiovi/react-native-charts-wrapper.git",
-    "saveSpec": "git+https://github.com/hongthaiovi/react-native-charts-wrapper.git",
-    "fetchSpec": "https://github.com/hongthaiovi/react-native-charts-wrapper.git",
-    "gitCommittish": null
+    "url": "https://github.com/wuxudong/react-native-charts-wrapper.git"
   },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "git+https://github.com/hongthaiovi/react-native-charts-wrapper.git#08f9ad216db0954d62ad81a4280a913d906f7a51",
-  "_spec": "git+https://github.com/hongthaiovi/react-native-charts-wrapper.git",
-  "_where": "/Users/nguyennhan/bankbe",
-  "author": {
-    "name": "wuxudong"
-  },
-  "bugs": {
-    "url": "https://github.com/wuxudong/react-native-charts-wrapper/issues"
-  },
-  "dependencies": {
-    "prop-types": "15.7.2",
-    "react": "16.13.1"
-  },
+  "version": "0.5.7",
   "description": "A react-native charts support both android and iOS.",
-  "files": [
-    "android",
-    "ios",
-    "lib",
-    "index.js",
-    "RNCharts.podspec"
-  ],
+  "author": "wuxudong",
+  "license": "MIT",
+  "nativePackage": true,
   "homepage": "https://github.com/wuxudong/react-native-charts-wrapper",
   "keywords": [
     "react native",
@@ -52,12 +18,15 @@
     "ios",
     "Charts"
   ],
-  "license": "MIT",
-  "name": "react-native-charts-wrapper",
-  "nativePackage": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wuxudong/react-native-charts-wrapper.git"
-  },
-  "version": "0.5.7"
+  "files": [
+    "android",
+    "ios",
+    "lib",
+    "index.js",
+    "RNCharts.podspec"
+  ],
+  "dependencies": {
+    "prop-types": "15.7.2",
+    "react": "16.13.1"
+  }
 }
